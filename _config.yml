@@ -272,8 +272,8 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-duoshuo_shortname: starsight
-duoshuo_share: true
+#duoshuo_shortname: starsight
+#duoshuo_share: true
 
 # Disqus
 #disqus_shortname:
