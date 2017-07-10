@@ -17,13 +17,15 @@
           Please enable JavaScript to view the
           <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
         </noscript>
-      </div>
+      </div>\
+	{% elseif theme.laibili_uid %}
+	  <div id="lv-container" data-id="city" data-uid="MTAyMC8yOTQ0Ny82MDE1"></div>
     {% elseif theme.hypercomments_id %}
       <div id="hypercomments_widget"></div>
     {% elseif theme.gentie_productKey %}
       <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
     {% elseif theme.youyan_uid %}
-      <div id="uyan_frame"></div>
+      <div id="uyan_frame"></div>	
     {% endif %}
   </div>
 {% endif %}
